@@ -98,12 +98,27 @@ body {
     display: inline-block;
 }
 
+#circleDiv{
+    
+    border: 6px solid darkgray;
+    /* border-radius: 50%; */
+    margin-left: 40px;
+
+    width: 400px;
+    height: 450px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 50%;
+    background: blue;
+    display: ;
+}
 #divForm {
     border: 6px dashed lightcoral;
     height: auto;
     width: 400px;
     margin-left: 800px;
     margin-top: 200px;
+    display: inline-block;
        
     
 }
