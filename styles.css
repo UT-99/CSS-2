@@ -110,7 +110,7 @@ body {
     -moz-border-radius: 25px;
     border-radius: 50%;
     background: blue;
-    display: ;
+    
 }
 #divForm {
     border: 6px dashed lightcoral;
@@ -122,6 +122,7 @@ body {
        
     
 }
+
 
 .marginBetweenformElement{
     margin: 10px;
