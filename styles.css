@@ -1,7 +1,7 @@
 #bodyId {
     background-image: url("./assets/240_F_210698012_rhRfEmocoloaayv8k1fv1JDvVGUU8IYp.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     height: auto;
     width: auto;
     /* border-top: 4px solid green;
@@ -17,10 +17,12 @@ body {
     /* Space from this element (entire page) and others*/
     padding: 0;
     /*space from content and border*/
-    border: 6px solid green;
+    border: 6px solid rgb(47, 240, 47);
+    outline:5px solid rgb(19, 117, 28);
     border-width: 5px;
     overflow: initial;
     display: block;
+    /* position: relative; */
 }
 
 
@@ -94,9 +96,9 @@ body {
     margin-left: 30px;
 }
 
-.DisplayInline {
+/* .DisplayInline {
     display: inline-block;
-}
+} */
 
 #circleDiv{
     
@@ -112,16 +114,7 @@ body {
     background: blue;
     
 }
-#divForm {
-    border: 6px dashed lightcoral;
-    height: auto;
-    width: 400px;
-    margin-left: 800px;
-    margin-top: 200px;
-    display: inline-block;
-       
-    
-}
+
 
 
 .marginBetweenformElement{
@@ -146,7 +139,7 @@ body {
 #Starters
 {
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width: 25%;
     background-color: aqua;
@@ -163,7 +156,7 @@ body {
 #SouthIndian
 {
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width: 25%;
     background-color: aqua;
@@ -181,7 +174,7 @@ body {
 {
     
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width: 25%;
     background-color: aqua;
@@ -204,7 +197,7 @@ body {
 {
     
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width: 25%;
     background-color: aqua;
@@ -224,7 +217,7 @@ body {
 {
     
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width: 25%;
     background-color: aqua;
@@ -245,7 +238,7 @@ body {
 {
     
     text-align: center;
-    border: 4px solid greenyellow;
+    border: 4px solid rgb(24, 86, 24);
     height: auto;
     width:26%;
     background-color: aqua;
@@ -270,3 +263,69 @@ body {
     font-size: larger;
 }
 
+#circleId
+{
+    height:450px;
+    width: 450px;
+    border: 9px solid rgb(74, 72, 72);
+    background-color: rgb(51, 177, 135);
+    color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    top:320px
+    
+}
+
+#divForm {
+    border: 9px dashed rgb(230, 59, 59);
+    height: 700px;
+    width: 400px;
+    margin-left: 800px;
+    margin-top: 200px;
+    display: inline-block;
+    position: relative;
+    bottom: 550px;
+    font-size: 19px;
+       
+    
+}
+
+.boxitem{
+    position: relative;
+}
+
+#divIdforCircleForm{
+    width: 900px;
+    height: 880px;
+
+}
+
+#headingInsideCircle{
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 90px;
+    font-size: 25PX;
+}
+
+#secondHeadingInsideCircle{
+    text-decoration: underline;
+    /* margin-top: 90px; */
+    font-style: italic;
+    font-size: 25PX;
+}
+
+#thirdHeadingInsideCircle{
+    text-decoration: underline;
+    /* margin-top: 90px; */
+    font-style: italic;
+    font-size: 25PX;
+}
+
+#hrInsidecircle{
+    width: 423px;
+}
+
+#secondHrInsidecircle{
+    width: 450px;
+}
